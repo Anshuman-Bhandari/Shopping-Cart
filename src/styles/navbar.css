@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: orange;
+    height: 60px;
+    position: fixed;
+    top: 0%;
+}
+
+.nav_box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myShop {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    text-shadow: 0px 4px 5px rgb(155, 108, 21);
+}
+
+.cart {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cart span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+}
+.cart span:nth-child(2) {
+    padding: 0 3px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -15px;
+    border-radius: 50px;
+}

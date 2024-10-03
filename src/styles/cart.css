@@ -1,0 +1,22 @@
+.cart_main {
+    margin-top: 6%;
+}
+
+.cart_item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.cart_img img{
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+.total_price {
+    text-align: center;
+}
